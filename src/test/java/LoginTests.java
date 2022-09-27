@@ -16,16 +16,15 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginSuccessModel() {
-//User user =new User();
-//        user.setEmail("noa");
-//        user.setPassword("Nnoa");
+
 
         User user =new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@");
 
         // open login form
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
-        app.getHelperUser().sabmitLogin();
+        app.getHelperUser().submitLogin();
+
         //app.getHelperUser().pause(2000);
         Assert.assertTrue(app.getHelperUser().isLogged());
 
@@ -39,25 +38,24 @@ public class LoginTests extends TestBase {
         // open login form
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("evnikel@gmail.com" ,"Elena1234$@");
-        app.getHelperUser().sabmitLogin();
+        app.getHelperUser().submitLogin();
         //app.getHelperUser().pause(2000);
         Assert.assertTrue(app.getHelperUser().isLogged());
 
 
     }
     @Test
-    public void loginNegativeWrongEmailFormat() {
+    public void NegativeWrongEmailPasswordFormat() {
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm(new User().withEmail("evnikelgmail.com").withPassword("Elena1234$@"));
-        app.getHelperUser().sabmitLogin();
+        app.getHelperUser().fillLoginRegistrationForm(new User().withEmail("evnikelgmail.com").withPassword("Ulena1234$@"));
+        app.getHelperUser().submitLogin();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isAlertPresent());
         Assert.assertTrue(app.getHelperUser().isErrorWrongFormat());
-
-    }
-
-    @Test
-    public void loginNegativeWrongPasswordFormat() {
+        app.getHelperUser().submitRegistration();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertPresent());
+        Assert.assertTrue(app.getHelperUser().isErrorWrongFormat());
 
 
     }

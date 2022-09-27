@@ -8,32 +8,14 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class HelperUser extends HelperBase{
+public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
         super(wd);
     }
 
 
-    public boolean isLogged() {
-        // //button[text()='Sign Out']
-        List<WebElement> list = wd.findElements(By.xpath("//button[text()='Sign Out']"));
-        return list.size() > 0;
-    }
-
     public void logout() {
         wd.findElement(By.xpath("//button[text()='Sign Out']")).click();
-    }
-
-    public void openLoginRegistrationForm(){
-        WebElement loginTab = wd.findElement(By.xpath("//a[@href='/login']"));
-        loginTab.click();
-    }
-
-    public void fillLoginRegistrationForm(String email,String password){
-        type(By.xpath("//input[@placeholder='Email']"),email);
-        type(By.xpath("//input[@placeholder='Password']"),password);
-
-
 
 //        WebElement inputEmail = wd.findElement(By.xpath("//input[@placeholder='Email']"));
 //        inputEmail.click();
@@ -45,16 +27,28 @@ public class HelperUser extends HelperBase{
 //        WebElement inputPassword = wd.findElement(By.xpath("//input[@placeholder='Password']"));
 //        inputPassword.click();
 //        inputPassword.clear();
-//        inputPassword.sendKeys(password);
+   //inputPassword.sendKeys(password);
 
     }
-
+    public boolean isLogged () {
+        // //button[text()='Sign Out']
+        List<WebElement> list = wd.findElements(By.xpath("//button[text()='Sign Out']"));
+        return list.size() > 0;
+    }
+    public void openLoginRegistrationForm(){
+        WebElement loginTab = wd.findElement(By.xpath("//a[@href='/login']"));
+        loginTab.click();
+    }
+    public void fillLoginRegistrationForm(String email,String password) {
+        type(By.xpath("//input[@placeholder='Email']"), email);
+        type(By.xpath("//input[@placeholder='Password']"), password);
+    }
     public void fillLoginRegistrationForm(User user) {
         type(By.xpath("//input[@placeholder='Email']"), user.getEmail());
         type(By.xpath("//input[@placeholder='Password']"), user.getPassword());
     }
 
-    public void sabmitLogin(){
+        public void submitLogin(){
         WebElement loginButton = wd.findElement(By.xpath("//*[text()=' Login']"));
         loginButton.click();
     }
@@ -82,4 +76,11 @@ public class HelperUser extends HelperBase{
 
         return errorText.contains("Wrong email or password format");
     }
+
+
+    public void submitRegistration() {
+        WebElement registrationButton = wd.findElement(By.xpath("//*[text()=' Registration']"));
+        registrationButton.click();
+    }
+
 }
