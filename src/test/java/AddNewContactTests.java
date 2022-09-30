@@ -1,2 +1,2 @@
-public class AddNewContactTests {
+public class AddNewContactTests extends TestBase {
 }
