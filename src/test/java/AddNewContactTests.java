@@ -30,6 +30,25 @@ public class AddNewContactTests extends TestBase {
         app.getContact().openContactForm();
         app.getContact().fillContactForm(contact);
         app.getContact().clickTab();
-        //app.getContact().saveContact();
+        app.getContact().saveContact();
+        app.getHelperUser().pause(2000);
+        app.getContact().openContactForm();
+    }
+    @Test
+    public void AddContact2(){
+        Random random = new Random();
+        int i = random.nextInt(1000)+1000;
+
+        Contact contact = Contact.builder()
+                .name("Lisa"+i)
+                .lastName("Boi")
+                .phone("12345"+i)
+                .email("lisa@gmail.com")
+                .address("Israel")
+                .build();
+        app.getContact().openContactForm();
+        app.getContact().fillContactForm(contact);
+        app.getContact().clickTab();
+
     }
 }
