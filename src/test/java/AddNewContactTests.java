@@ -27,12 +27,12 @@ public class AddNewContactTests extends TestBase {
                 .address("Israel")
                 .description("My best friend")
                 .build();
-        app.getContact().openContactForm();
-        app.getContact().fillContactForm(contact);
-        app.getContact().clickTab();
-        app.getContact().saveContact();
-        app.getHelperUser().pause(2000);
-        app.getContact().openContactForm();
+        app.helperContact().openContactForm();
+        app.helperContact().fillContactForm(contact);
+        app.helperContact().clickTab();
+        app.helperContact().saveContact();
+        app.helperContact().pause(2000);
+        app.helperContact().openContactForm();
     }
     @Test
     public void AddContact2(){
@@ -46,9 +46,9 @@ public class AddNewContactTests extends TestBase {
                 .email("lisa@gmail.com")
                 .address("Israel")
                 .build();
-        app.getContact().openContactForm();
-        app.getContact().fillContactForm(contact);
-        app.getContact().clickTab();
+        app.helperContact().openContactForm();
+        app.helperContact().fillContactForm(contact);
+        app.helperContact().clickTab();
 
     }
 }
