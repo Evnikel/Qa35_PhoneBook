@@ -1,0 +1,3 @@
+21:04:56.431  INFO  TestBase - Test start with name ----->loginSucces
+21:04:56.853  INFO  TestBase - User login data: email evnikel@gmail.com & password Elena1234$@ 
+21:04:57.472  INFO  TestBase - Assert passed
