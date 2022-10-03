@@ -1,5 +1,6 @@
 import models.Contact;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,16 +24,16 @@ public class AddNewContactTests extends TestBase {
                 .name("Lisa"+i)
                 .lastName("Boi")
                 .phone("12345"+i)
-                .email("lisa@gmail.com")
+                .email("lisa" + i +"@gmail.com")
                 .address("Israel")
                 .description("My best friend")
                 .build();
         app.helperContact().openContactForm();
-        app.helperContact().fillContactForm(contact);
+        app.helperContact().fillContactAllForm(contact);
         app.helperContact().clickTab();
         app.helperContact().saveContact();
-        app.helperContact().pause(2000);
-        app.helperContact().openContactForm();
+        Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.helperContact().inContactAddedByPhone(contact.getPhone()));
     }
     @Test
     public void AddContact2(){
@@ -43,12 +44,30 @@ public class AddNewContactTests extends TestBase {
                 .name("Lisa"+i)
                 .lastName("Boi")
                 .phone("12345"+i)
-                .email("lisa@gmail.com")
+                .email("lisa" + i +"@gmail.com")
                 .address("Israel")
                 .build();
         app.helperContact().openContactForm();
-        app.helperContact().fillContactForm(contact);
+        app.helperContact().fillContactAllForm(contact);
         app.helperContact().clickTab();
+        Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.helperContact().inContactAddedByPhone(contact.getPhone()));
+
+    }
+    @Test
+    public void AddNewContactWrongName(){
+
+        Contact contact = Contact.builder()
+                .name("Lisa")
+                .phone("12345678904568")
+                .email("lis@gmail.com")
+                .address("Israel")
+                .build();
+        app.helperContact().openContactForm();
+        app.helperContact().fillContactAllForm(contact);
+        app.helperContact().clickTab();
+        Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
+
 
     }
 }
