@@ -13,7 +13,7 @@ public class RemoveContact extends TestBase {
             logger.info("User login data: email evnikel@gmail.com & password Elena1234$@ ");
         }
 
-        app.helperContact().AddCountacts();
+        app.helperContact().AddCountContacts();
 
     }
 

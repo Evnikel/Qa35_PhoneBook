@@ -110,7 +110,7 @@ public class HelperContact extends HelperBase {
     }
 
 
-    public void AddCountacts() {
+    public void AddCountContacts() {
         Random random = new Random();
         int i = random.nextInt(1000)+1000;
 
