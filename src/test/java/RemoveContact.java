@@ -28,7 +28,7 @@ public class RemoveContact extends TestBase {
     public void removeAllContacts(){
         app.helperContact().removeAllContacts();
         Assert.assertTrue(app.helperContact().isNoContactsHere());
-        logger.info("Assert -removeAllContacts----> CountAfter ");
+        logger.info("Assert -removeAllContacts----> NoContactsHere ");
 
 
     }

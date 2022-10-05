@@ -76,6 +76,7 @@ public class HelperContact extends HelperBase {
             logger.info("List of Contact not Empty");
             click(By.cssSelector(".contact-item_card__2SOIM"));
             click(By.xpath("//button[text()='Remove']"));
+            logger.info("Count after remove -1");
             pause(500);
 
         }
@@ -88,6 +89,7 @@ public class HelperContact extends HelperBase {
 
     private int countOfContacts() {
         return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+
     }
 
     private boolean isContactListEmpty() {
@@ -98,6 +100,7 @@ public class HelperContact extends HelperBase {
         while (countOfContacts() != 0) {
             click(By.cssSelector(".contact-item_card__2SOIM"));
             click(By.xpath("//button[text()='Remove']"));
+            logger.info("Count after remove is " + countOfContacts());
             pause(500);
         }
     }
@@ -107,6 +110,7 @@ public class HelperContact extends HelperBase {
         return new WebDriverWait(wd, Duration.ofSeconds(5))
                 .until(ExpectedConditions
                         .textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk h1")), "No Contacts here!"));
+
     }
 
 
@@ -126,6 +130,7 @@ public class HelperContact extends HelperBase {
         fillContactAllForm(contact);
         clickTab();
         saveContact();
+        logger.info("Added Contacts");
     }
 }
 

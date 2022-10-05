@@ -1,0 +1,11 @@
+19:30:02.383  INFO  TestBase - User login data: email evnikel@gmail.com & password Elena1234$@ 
+19:30:04.047  INFO  manager.HelperBase - Added Contacts
+19:30:04.584  INFO  manager.HelperBase - Count after remove is 2
+19:30:05.394  INFO  manager.HelperBase - Count after remove is 1
+19:30:11.007  INFO  TestBase - Assert -removeAllContacts----> NoContactsHere 
+19:30:12.441  INFO  manager.HelperBase - Added Contacts
+19:30:12.655  INFO  manager.HelperBase - Count before remove is 2
+19:30:12.663  INFO  manager.HelperBase - List of Contact not Empty
+19:30:12.755  INFO  manager.HelperBase - Count after remove -1
+19:30:13.298  INFO  manager.HelperBase - Count after remove is 1
+19:30:13.299  INFO  TestBase - Assert removeFirstContact ----> CountAfter
