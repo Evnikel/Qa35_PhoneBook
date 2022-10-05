@@ -1,0 +1,8 @@
+18:19:09.627  INFO  TestBase - User login data: email evnikel@gmail.com & password Elena1234$@ 
+18:19:10.370  INFO  TestBase - AddNewContactData
+18:19:18.984  INFO  TestBase - Assert -removeAllContacts----> CountAfter 
+18:19:27.346  INFO  TestBase - AddNewContactData
+18:19:27.528  INFO  manager.HelperBase - Count before remove is 4
+18:19:27.542  INFO  manager.HelperBase - List of Contact not Empty
+18:19:28.194  INFO  manager.HelperBase - Count after remove is 3
+18:19:28.194  INFO  TestBase - Assert removeFirstContact ----> CountAfter
