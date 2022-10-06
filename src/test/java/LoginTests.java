@@ -9,9 +9,13 @@ public class LoginTests extends TestBase {
 
     @BeforeMethod
     public void precondition() {
-        if (app.getHelperUser().isLogged()){
+        logger.info("Start checking authorization");
+        if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
-       }
+            logger.info("Test was needed in logout ");
+        }else {
+            logger.info("Test was not needed in logout ");
+        }
     }
 
     @Test
@@ -34,7 +38,7 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginSuccess() {
-        logger.info("Test start with name ----->loginSucces");
+        logger.info("User login with data: email evnikel@gmail.com & password  Elena1234$@");
 
         // open login form
         app.getHelperUser().openLoginRegistrationForm();
@@ -43,7 +47,7 @@ public class LoginTests extends TestBase {
         app.getHelperUser().submitLogin();
         //app.getHelperUser().pause(2000);
         Assert.assertTrue(app.getHelperUser().isLogged());
-        logger.info("Assert passed");
+        logger.info(" Assert check is Sign Out button Present");
 
 
     }
