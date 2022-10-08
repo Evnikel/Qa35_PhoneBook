@@ -1,0 +1,250 @@
+13:17:50.452  INFO  manager.ApplicationManager - Chrome Driver was opened
+13:17:52.286  INFO  manager.ApplicationManager - Current URL is -->https://contacts-app.tobbymarshall815.vercel.app/home
+13:17:52.356  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+13:17:57.420  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+13:17:57.421  INFO  manager.ListenerWD - List size is -->0
+13:17:57.423  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/login']
+13:17:57.459  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[@href='/login']
+13:17:57.533  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+13:17:57.577  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Email']
+13:17:57.724  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+13:17:57.748  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Password']
+13:17:57.887  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //*[text()=' Login']
+13:17:57.920  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //*[text()=' Login']
+13:17:57.968  INFO  TestBase - User login data: email evnikel@gmail.com & password Elena1234$@ 
+13:17:57.968  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:17:58.804  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:17:58.804  INFO  manager.ListenerWD - List size is -->1
+13:17:59.307  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+13:17:59.332  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+13:17:59.378  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Name']
+13:17:59.404  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Name']
+13:17:59.516  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:17:59.537  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:17:59.655  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Phone']
+13:17:59.685  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Phone']
+13:17:59.815  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='email']
+13:17:59.846  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='email']
+13:17:59.959  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Address']
+13:17:59.980  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:00.089  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:00.112  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:00.231  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:00.251  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:00.278  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:00.298  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:00.345  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button b
+13:18:00.363  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button b
+13:18:00.396  INFO  manager.HelperBase - Added Contacts
+13:18:00.902  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+13:18:00.950  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+13:18:00.999  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:01.033  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:01.145  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:01.162  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:01.265  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:01.280  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:01.383  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='email']
+13:18:01.397  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='email']
+13:18:01.510  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:01.526  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:01.633  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:01.648  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:01.762  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:01.778  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:01.803  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:01.819  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:01.864  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button b
+13:18:01.877  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button b
+13:18:01.909  INFO  manager.HelperBase - Added Contacts
+13:18:02.417  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+13:18:02.467  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+13:18:02.531  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:02.550  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:02.668  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:02.682  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:02.783  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:02.798  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:02.902  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='email']
+13:18:02.916  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='email']
+13:18:03.030  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:03.044  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:03.137  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:03.150  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:03.266  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:03.291  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:03.327  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:03.355  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:03.408  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button b
+13:18:03.419  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button b
+13:18:03.450  INFO  manager.HelperBase - Added Contacts
+13:18:03.452  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:03.729  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:03.730  INFO  manager.ListenerWD - List size is -->7
+13:18:03.730  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:03.749  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:03.793  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:03.812  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:03.846  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:03.894  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:03.894  INFO  manager.ListenerWD - List size is -->7
+13:18:03.894  INFO  manager.HelperBase - Count after remove is 7
+13:18:04.398  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:04.547  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:04.548  INFO  manager.ListenerWD - List size is -->6
+13:18:04.548  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:04.573  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:04.614  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:04.637  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:04.673  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:04.710  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:04.710  INFO  manager.ListenerWD - List size is -->6
+13:18:04.710  INFO  manager.HelperBase - Count after remove is 6
+13:18:05.211  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.241  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.242  INFO  manager.ListenerWD - List size is -->5
+13:18:05.242  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.260  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.291  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:05.310  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:05.359  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.409  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.409  INFO  manager.ListenerWD - List size is -->5
+13:18:05.409  INFO  manager.HelperBase - Count after remove is 5
+13:18:05.915  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.952  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.952  INFO  manager.ListenerWD - List size is -->4
+13:18:05.952  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:05.972  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.014  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:06.035  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:06.077  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.113  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.113  INFO  manager.ListenerWD - List size is -->4
+13:18:06.113  INFO  manager.HelperBase - Count after remove is 4
+13:18:06.620  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.639  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.639  INFO  manager.ListenerWD - List size is -->3
+13:18:06.639  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.650  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.677  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:06.693  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:06.727  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.754  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:06.754  INFO  manager.ListenerWD - List size is -->3
+13:18:06.754  INFO  manager.HelperBase - Count after remove is 3
+13:18:07.264  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.283  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.283  INFO  manager.ListenerWD - List size is -->2
+13:18:07.283  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.295  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.327  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:07.343  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:07.378  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.395  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.395  INFO  manager.ListenerWD - List size is -->2
+13:18:07.395  INFO  manager.HelperBase - Count after remove is 2
+13:18:07.905  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.919  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.919  INFO  manager.ListenerWD - List size is -->1
+13:18:07.919  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.933  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:07.964  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:07.992  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:08.040  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:08.060  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:08.060  INFO  manager.ListenerWD - List size is -->1
+13:18:08.060  INFO  manager.HelperBase - Count after remove is 1
+13:18:08.563  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:13.581  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:13.582  INFO  manager.ListenerWD - List size is -->0
+13:18:13.587  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-page_message__2qafk h1
+13:18:13.630  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-page_message__2qafk h1
+13:18:13.686  INFO  TestBase - Assert -removeAllContacts----> NoContactsHere 
+13:18:13.692  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+13:18:13.706  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+13:18:13.706  INFO  manager.ListenerWD - List size is -->1
+13:18:13.706  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:18.716  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:18.717  INFO  manager.ListenerWD - List size is -->0
+13:18:19.218  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+13:18:19.254  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+13:18:19.367  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:19.410  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:19.728  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:19.764  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:20.036  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:20.057  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:20.165  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='email']
+13:18:20.182  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='email']
+13:18:20.283  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:20.295  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:20.393  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:20.407  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:20.510  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:20.524  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:20.560  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:20.578  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:20.632  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button b
+13:18:20.647  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button b
+13:18:20.683  INFO  manager.HelperBase - Added Contacts
+13:18:21.194  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+13:18:21.209  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+13:18:21.248  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:21.278  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:21.392  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:21.405  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:21.503  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:21.518  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:21.624  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='email']
+13:18:21.638  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='email']
+13:18:21.762  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:21.776  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:21.881  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:21.895  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:22.008  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:22.022  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:22.044  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:22.058  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:22.128  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button b
+13:18:22.141  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button b
+13:18:22.174  INFO  manager.HelperBase - Added Contacts
+13:18:22.674  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+13:18:22.695  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+13:18:22.733  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:22.750  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Name']
+13:18:22.865  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:22.881  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Last Name']
+13:18:22.990  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:23.004  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Phone']
+13:18:23.118  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='email']
+13:18:23.133  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='email']
+13:18:23.261  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:23.277  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Address']
+13:18:23.376  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:23.391  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:23.498  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+13:18:23.517  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+13:18:23.542  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:23.560  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .add_form__2rsm2 button
+13:18:23.611  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button b
+13:18:23.627  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button b
+13:18:23.668  INFO  manager.HelperBase - Added Contacts
+13:18:23.669  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:23.854  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:23.854  INFO  manager.ListenerWD - List size is -->6
+13:18:23.855  INFO  manager.HelperBase - Count before remove is 6
+13:18:23.855  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:23.914  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:23.915  INFO  manager.ListenerWD - List size is -->6
+13:18:23.915  INFO  manager.HelperBase - List of Contact not Empty
+13:18:23.915  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:23.932  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:23.980  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Remove']
+13:18:23.999  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Remove']
+13:18:24.043  INFO  manager.HelperBase - Count after remove -1
+13:18:24.551  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:24.643  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: .contact-item_card__2SOIM
+13:18:24.643  INFO  manager.ListenerWD - List size is -->5
+13:18:24.644  INFO  manager.HelperBase - Count after remove is 5
+13:18:24.644  INFO  TestBase - Assert removeFirstContact ----> CountAfter

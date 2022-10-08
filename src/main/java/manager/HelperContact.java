@@ -68,6 +68,58 @@ public class HelperContact extends HelperBase {
         return wd.findElements(By.cssSelector("a.active[href='/add']")).size() > 0;
     }
 
+//    public int removeOneContact() {
+//        int before =countOfContact();
+//
+//        if(!isCountListEmpty()) {
+//            removeContact();
+//        }
+//
+//        int after =countOfContact();
+//        return before-after;
+//    }
+//
+//    private boolean isCountListEmpty() {
+//        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
+//    }
+//
+//    private void removeContact() {
+//        click(By.cssSelector(".contact-item_card__2SOIM"));
+//        click(By.xpath("//button[text()='Remove']"));
+//        pause(500);
+//    }
+//
+//    private int countOfContact() {
+//        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+//    }
+//
+//    public void removeAllContacts() {
+////        List <WebElement> list = wd.findElements(By.cssSelector(".contact-item_card__2SOIM"));
+////        for (int i = 0; i < list.size(); i++) {
+////            click(By.cssSelector(".contact-item_card__2SOIM"));
+////            click(By.xpath("//button[text()='Remove']"));
+////            pause(500);
+////        }
+//
+//        while (wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size()!=0){
+//            removeContact();
+//        }
+//
+//
+//
+//    }
+//
+//    public boolean isNoContactHere() {
+//        return new WebDriverWait(wd, Duration.ofSeconds(5))
+//                .until(ExpectedConditions
+//                        .textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk h1")),"No Contacts here!" ));
+//    }
+//
+//    public void providerOfContacts() {
+//
+//        // check count of contacts <3 ---> add contact 3
+//    }
+
 
     public int removeFirstContact() {
         int countBefore = countOfContacts();
@@ -114,23 +166,26 @@ public class HelperContact extends HelperBase {
     }
 
 
-    public void AddCountContacts() {
+    public void providerOfContacts() {
         Random random = new Random();
-        int i = random.nextInt(1000)+1000;
-
-        Contact contact = Contact.builder()
-                .name("Lisa"+i)
-                .lastName("Boi")
-                .phone("12345"+i)
-                .email("lisa" + i +"@gmail.com")
-                .address("Israel")
-                .description("My best friend")
-                .build();
-        openContactForm();
-        fillContactAllForm(contact);
-        clickTab();
-        saveContact();
-        logger.info("Added Contacts");
+        if(countOfContacts()<4) {
+            for (int i = 0; i < 3; i++) {
+                int index = random.nextInt(100) + 100;
+                Contact contact = Contact.builder()
+                        .name("Lisa" + index)
+                        .lastName("Boi")
+                        .phone("12345" + index)
+                        .email("lisa" + index + "@gmail.com")
+                        .address("Israel")
+                        .description("My best friend")
+                        .build();
+                openContactForm();
+                fillContactAllForm(contact);
+                clickTab();
+                saveContact();
+                logger.info("Added Contacts");
+            }
+        }
     }
 }
 
