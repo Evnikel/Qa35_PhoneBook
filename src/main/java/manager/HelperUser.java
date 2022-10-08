@@ -45,6 +45,7 @@ public class HelperUser extends HelperBase {
     }
     public void openLoginRegistrationForm(){
         WebElement loginTab = wd.findElement(By.xpath("//a[@href='/login']"));
+        //WebElement loginTab = wd.findElement(By.xpath("//a[@href='/l']"));
         loginTab.click();
     }
     public void fillLoginRegistrationForm(String email,String password) {

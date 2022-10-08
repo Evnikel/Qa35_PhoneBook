@@ -19,8 +19,11 @@ public class ApplicationManager {
 
     public void init() {
         WebDriverListener listener = new ListenerWD();
+
         wd = new ChromeDriver();
+
         logger.info("Chrome Driver was opened");
+
         wd=new EventFiringDecorator<>(listener).decorate(wd);
 
         wd.manage().window().maximize(); /// open full screen

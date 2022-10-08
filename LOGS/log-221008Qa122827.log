@@ -1,0 +1,63 @@
+12:28:34.020  INFO  manager.ApplicationManager - Chrome Driver was opened
+12:28:36.247  INFO  manager.ApplicationManager - Current URL is -->https://contacts-app.tobbymarshall815.vercel.app/home
+12:28:36.359  INFO  TestBase - Start checking authorization
+12:28:36.360  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+12:28:41.439  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+12:28:41.440  INFO  manager.ListenerWD - List size is -->0
+12:28:41.440  INFO  TestBase - Test was not needed in logout 
+12:28:41.443  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/l']
+12:28:46.479  INFO  manager.ListenerWD - We have a 'problem'
+12:28:46.480  INFO  manager.ListenerWD - The name of error method  findElement
+12:28:46.484  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/l']"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e5d5db2412e64d8d3b5387a7ecf5a14, findElement {using=xpath, value=//a[@href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63568/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e5d5db2412e64d8d3b5387a7ecf5a14
+12:28:46.485  INFO  manager.ListenerWD - *********************
+12:28:46.486  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (0e5d5db2412e64d8d3b5387a7ecf5a14)
+12:28:46.491  INFO  manager.ListenerWD - Screen with error is 1050   src/test/screenshots/screen1050.png
+12:28:47.187  INFO  TestBase - Start checking authorization
+12:28:47.188  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+12:28:52.213  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+12:28:52.213  INFO  manager.ListenerWD - List size is -->0
+12:28:52.214  INFO  TestBase - Test was not needed in logout 
+12:28:52.214  INFO  TestBase - User login with data: email evnikel@gmail.com & password  Elena1234$@
+12:28:52.215  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/l']
+12:28:57.232  INFO  manager.ListenerWD - We have a 'problem'
+12:28:57.233  INFO  manager.ListenerWD - The name of error method  findElement
+12:28:57.233  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/l']"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e5d5db2412e64d8d3b5387a7ecf5a14, findElement {using=xpath, value=//a[@href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63568/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e5d5db2412e64d8d3b5387a7ecf5a14
+12:28:57.234  INFO  manager.ListenerWD - *********************
+12:28:57.234  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (0e5d5db2412e64d8d3b5387a7ecf5a14)
+12:28:57.234  INFO  manager.ListenerWD - Screen with error is 1276   src/test/screenshots/screen1276.png
+12:28:57.692  INFO  TestBase - Start checking authorization
+12:28:57.692  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+12:29:02.702  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+12:29:02.702  INFO  manager.ListenerWD - List size is -->0
+12:29:02.702  INFO  TestBase - Test was not needed in logout 
+12:29:02.704  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/l']
+12:29:07.712  INFO  manager.ListenerWD - We have a 'problem'
+12:29:07.713  INFO  manager.ListenerWD - The name of error method  findElement
+12:29:07.713  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/l']"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e5d5db2412e64d8d3b5387a7ecf5a14, findElement {using=xpath, value=//a[@href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63568}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63568/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e5d5db2412e64d8d3b5387a7ecf5a14
+12:29:07.713  INFO  manager.ListenerWD - *********************
+12:29:07.714  INFO  manager.ListenerWD - ChromeDriver: chrome on WINDOWS (0e5d5db2412e64d8d3b5387a7ecf5a14)
+12:29:07.714  INFO  manager.ListenerWD - Screen with error is 1317   src/test/screenshots/screen1317.png
