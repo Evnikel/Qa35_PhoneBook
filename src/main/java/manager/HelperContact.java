@@ -169,7 +169,7 @@ public class HelperContact extends HelperBase {
     public void providerOfContacts() {
         Random random = new Random();
         if(countOfContacts()<4) {
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 3; i++) { // Цикл for, который повторяет определенное действие нужное количество раз
                 int index = random.nextInt(100) + 100;
                 Contact contact = Contact.builder()
                         .name("Lisa" + index)
@@ -183,9 +183,15 @@ public class HelperContact extends HelperBase {
                 fillContactAllForm(contact);
                 clickTab();
                 saveContact();
-                logger.info("Added Contacts");
+                logger.info("Added Contacts" + contact.toString());
             }
         }
+    }
+
+    public void clickTabNegativ() {
+        wd.findElement(By.cssSelector("[placeholder='description']")).sendKeys(Keys.TAB);
+        wd.findElement(By.cssSelector(".add_form__2rsm2 button")).sendKeys(Keys.ENTER);
+
     }
 }
 

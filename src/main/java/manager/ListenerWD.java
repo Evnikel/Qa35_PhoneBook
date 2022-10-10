@@ -67,7 +67,7 @@ public class ListenerWD implements WebDriverListener {
         String link = "src/test/screenshots/screen"+i+".png";
         logger.info("Screen with error is "+ i +"   " + link);
 
-        WebDriver wd = (ChromeDriver) target;
+        ChromeDriver wd = (ChromeDriver) target;
 
         File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
         try {

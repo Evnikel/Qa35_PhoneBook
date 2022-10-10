@@ -62,10 +62,12 @@ public class AddNewContactTests extends TestBase {
                 .phone("12345678904568")
                 .email("lis@gmail.com")
                 .address("Israel")
+                .description("Friend")
                 .build();
         app.helperContact().openContactForm();
         app.helperContact().fillContactAllForm(contact);
-        app.helperContact().clickTab();
+        app.helperContact().clickTabNegativ();
+
         Assert.assertTrue(app.helperContact().isAddPageStillDisplayed());
 
 
