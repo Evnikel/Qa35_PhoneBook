@@ -1,0 +1,95 @@
+16:38:58.743  INFO  manager.ApplicationManager - Chrome Driver was opened
+16:39:00.240  INFO  manager.ApplicationManager - Current URL is -->https://contacts-app.tobbymarshall815.vercel.app/home
+16:39:00.300  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:05.331  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:05.332  INFO  manager.ListenerWD - List size is -->0
+16:39:05.336  INFO  TestBase - Data for testUser{email='evnikel2345@gmail.com', password='Elena1234$@'}
+16:39:05.337  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/login']
+16:39:05.363  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[@href='/login']
+16:39:05.424  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:05.453  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:05.578  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:05.602  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:05.729  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[2]
+16:39:05.756  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[2]
+16:39:05.794  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:06.460  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:06.461  INFO  manager.ListenerWD - List size is -->1
+16:39:06.470  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:06.682  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:06.754  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:06.779  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:06.780  INFO  manager.ListenerWD - List size is -->1
+16:39:06.780  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:06.806  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:06.853  INFO  TestBase - Data for testUser{email='evnikel2346@gmail.com', password='Elena1234$@'}
+16:39:06.854  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/login']
+16:39:06.885  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[@href='/login']
+16:39:06.923  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:06.945  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:07.066  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:07.084  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:07.186  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[2]
+16:39:07.206  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[2]
+16:39:07.245  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:07.419  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:07.420  INFO  manager.ListenerWD - List size is -->1
+16:39:07.421  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:07.557  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:07.617  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:07.673  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:07.674  INFO  manager.ListenerWD - List size is -->1
+16:39:07.675  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:07.722  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:07.770  INFO  TestBase - Data for testUser{email='evnikel2347@gmail.com', password='Elena1234$@'}
+16:39:07.771  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/login']
+16:39:07.794  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[@href='/login']
+16:39:07.842  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:07.863  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:07.997  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:08.011  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:08.113  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[2]
+16:39:08.130  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[2]
+16:39:08.172  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:08.321  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:08.322  INFO  manager.ListenerWD - List size is -->1
+16:39:08.322  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:08.398  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:08.415  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:08.429  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:08.429  INFO  manager.ListenerWD - List size is -->1
+16:39:08.429  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:08.443  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:08.494  INFO  TestBase - Data for testUser{email='evnikel2348@gmail.com', password='Elena1234$@'}
+16:39:08.494  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/login']
+16:39:08.512  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[@href='/login']
+16:39:08.555  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:08.573  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:08.697  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:08.712  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:08.835  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[2]
+16:39:08.854  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[2]
+16:39:08.889  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:09.063  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:09.063  INFO  manager.ListenerWD - List size is -->1
+16:39:09.064  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:09.175  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:09.227  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:09.268  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:09.269  INFO  manager.ListenerWD - List size is -->1
+16:39:09.270  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:09.309  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[text()='Sign Out']
+16:39:09.430  INFO  TestBase - Data for testUser{email='evnikel2349@gmail.com', password='Elena1234$@'}
+16:39:09.432  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/login']
+16:39:09.463  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[@href='/login']
+16:39:09.503  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:09.519  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Email']
+16:39:09.668  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:09.684  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Password']
+16:39:09.795  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[2]
+16:39:09.810  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[2]
+16:39:09.850  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:09.984  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+16:39:09.984  INFO  manager.ListenerWD - List size is -->1
+16:39:09.985  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1
+16:39:10.087  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.contact-page_message__2qafk>h1

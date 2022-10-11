@@ -12,11 +12,11 @@ public class RegistrationTests extends TestBase{
             app.getHelperUser().logout();
         }
     }
-    @Test
+    @Test(invocationCount = 5)
     public void registrationSuccess() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = new User().withEmail("evnikel" + i + "@gmail.com").withPassword("Elena1234$@");
-
+        logger.info("Data for test" +user.toString());
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();

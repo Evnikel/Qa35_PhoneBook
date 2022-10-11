@@ -192,6 +192,7 @@ public class HelperContact extends HelperBase {
         wd.findElement(By.cssSelector("[placeholder='description']")).sendKeys(Keys.TAB);
         wd.findElement(By.cssSelector(".add_form__2rsm2 button")).sendKeys(Keys.ENTER);
 
+
     }
 }
 

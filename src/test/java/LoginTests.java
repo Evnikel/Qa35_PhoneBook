@@ -1,3 +1,4 @@
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -34,15 +35,27 @@ public class LoginTests extends TestBase {
 
 
     }
-
-
-    @Test
-    public void loginSuccess() {
-        logger.info("User login with data: email evnikel@gmail.com & password  Elena1234$@");
-
+    @Test(dataProvider = "dataModelUser",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelDP(User user) {
+        logger.info("Login scenario success was used data"+user.toString());
         // open login form
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("evnikel@gmail.com" ,"Elena1234$@");
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        logger.info("Test start loginSuccessModels - run with username and password"   +user.toString());
+        app.getHelperUser().submitLogin();
+        //app.getHelperUser().pause(2000);
+        Assert.assertTrue(app.getHelperUser().isLogged());
+
+
+    }
+
+
+    @Test(dataProvider = "datalogin", dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(String email, String password) {
+        logger.info("Test LoginTests start with name ----->email: " +email+ "password" +password);
+        // open login form
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(email, password);
         logger.info("User login data: email evnikel@gmail.com & password Elena1234$@ ");
         app.getHelperUser().submitLogin();
         //app.getHelperUser().pause(2000);
