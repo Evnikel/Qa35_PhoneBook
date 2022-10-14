@@ -1,3 +1,4 @@
+import manager.DataProviderContact;
 import models.Contact;
 import models.User;
 import org.testng.Assert;
@@ -53,6 +54,17 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.helperContact().inContactAddedByPhone(contact.getPhone()));
 
+    }
+
+    @Test(dataProvider = "contactValidData",dataProviderClass = DataProviderContact.class)
+    public void AddContactDP(Contact contact){
+        logger.info("The test used contact : " +contact.toString());
+        app.helperContact().openContactForm();
+        app.helperContact().fillContactAllForm(contact);
+        app.helperContact().clickTab();
+        app.helperContact().saveContact();
+        Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.helperContact().inContactAddedByPhone(contact.getPhone()));
     }
     @Test
     public void AddNewContactWrongName(){

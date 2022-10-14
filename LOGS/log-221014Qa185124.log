@@ -1,0 +1,95 @@
+18:51:27.243  INFO  manager.ApplicationManager - Chrome Driver was opened
+18:51:28.924  INFO  manager.ApplicationManager - Current URL is -->https://contacts-app.tobbymarshall815.vercel.app/home
+18:51:29.028  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:34.075  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:34.075  INFO  manager.ListenerWD - List size is -->0
+18:51:34.075  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[@href='/login']
+18:51:34.107  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[@href='/login']
+18:51:34.168  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Email']
+18:51:34.193  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Email']
+18:51:34.308  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //input[@placeholder='Password']
+18:51:34.339  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //input[@placeholder='Password']
+18:51:34.457  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //*[text()=' Login']
+18:51:34.480  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //*[text()=' Login']
+18:51:34.540  INFO  TestBase - The test used contact : Contact(name=Lisa, lastName=null, phone=Boi, email=12345678, address=lis@gmail.com, description=Israel)
+18:51:35.046  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+18:51:35.191  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+18:51:35.284  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Name']
+18:51:35.319  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Name']
+18:51:35.423  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Phone']
+18:51:35.443  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Phone']
+18:51:35.537  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='email']
+18:51:35.558  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='email']
+18:51:35.676  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='Address']
+18:51:35.707  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='Address']
+18:51:35.822  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+18:51:35.842  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+18:51:35.943  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [placeholder='description']
+18:51:35.962  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [placeholder='description']
+18:51:35.995  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .add_form__2rsm2 button
+18:51:36.019  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .add_form__2rsm2 button
+18:51:36.071  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button b
+18:51:36.092  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button b
+18:51:36.137  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: h2
+18:51:41.185  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: h2
+18:51:41.185  INFO  manager.ListenerWD - List size is -->0
+18:51:41.200  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:41.223  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:41.223  INFO  manager.ListenerWD - List size is -->1
+18:51:41.223  INFO  TestBase - The test used contact : Contact(name=Olga, lastName=null, phone=Boi, email=12345679, address=olga@gmail.com, description=Israel)
+18:51:41.732  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+18:51:41.747  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+18:51:46.782  INFO  manager.ListenerWD - We have a 'problem'
+18:51:46.782  INFO  manager.ListenerWD - The name of error method  click
+18:51:46.798  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64448d77743b0696cf12a10cce3c29c4, clickElement {id=af833445-a1af-4053-9253-9897cac56804}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56332/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (64448d77743b0696cf12a10cce3c29c4)] -> xpath: //a[text()='ADD']]
+Session ID: 64448d77743b0696cf12a10cce3c29c4
+18:51:46.798  INFO  manager.ListenerWD - *********************
+18:51:46.798  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (64448d77743b0696cf12a10cce3c29c4)] -> xpath: //a[text()='ADD']]
+18:51:46.798  INFO  manager.ListenerWD - Screen with error is 1877   src/test/screenshots/screen1877.png
+18:51:46.814  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:46.845  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:46.845  INFO  manager.ListenerWD - List size is -->1
+18:51:46.845  INFO  TestBase - The test used contact : Contact(name=Elena, lastName=null, phone=Boi, email=12345677, address=elena@gmail.com, description=Israel)
+18:51:47.349  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+18:51:47.380  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+18:51:52.451  INFO  manager.ListenerWD - We have a 'problem'
+18:51:52.451  INFO  manager.ListenerWD - The name of error method  click
+18:51:52.451  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64448d77743b0696cf12a10cce3c29c4, clickElement {id=af833445-a1af-4053-9253-9897cac56804}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56332/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (64448d77743b0696cf12a10cce3c29c4)] -> xpath: //a[text()='ADD']]
+Session ID: 64448d77743b0696cf12a10cce3c29c4
+18:51:52.451  INFO  manager.ListenerWD - *********************
+18:51:52.451  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (64448d77743b0696cf12a10cce3c29c4)] -> xpath: //a[text()='ADD']]
+18:51:52.451  INFO  manager.ListenerWD - Screen with error is 1463   src/test/screenshots/screen1463.png
+18:51:52.458  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:52.474  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Sign Out']
+18:51:52.474  INFO  manager.ListenerWD - List size is -->1
+18:51:52.474  INFO  TestBase - The test used contact : Contact(name=Pol, lastName=null, phone=Boi, email=12345676, address=pol@gmail.com, description=Israel)
+18:51:52.977  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='ADD']
+18:51:53.008  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='ADD']
+18:51:58.105  INFO  manager.ListenerWD - We have a 'problem'
+18:51:58.105  INFO  manager.ListenerWD - The name of error method  click
+18:51:58.105  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-EVABS4F', ip: '192.168.1.138', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64448d77743b0696cf12a10cce3c29c4, clickElement {id=af833445-a1af-4053-9253-9897cac56804}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\evnik\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56332/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (64448d77743b0696cf12a10cce3c29c4)] -> xpath: //a[text()='ADD']]
+Session ID: 64448d77743b0696cf12a10cce3c29c4
+18:51:58.105  INFO  manager.ListenerWD - *********************
+18:51:58.105  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (64448d77743b0696cf12a10cce3c29c4)] -> xpath: //a[text()='ADD']]
+18:51:58.105  INFO  manager.ListenerWD - Screen with error is 1957   src/test/screenshots/screen1957.png

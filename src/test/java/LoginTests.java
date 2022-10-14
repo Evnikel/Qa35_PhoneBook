@@ -52,7 +52,7 @@ public class LoginTests extends TestBase {
 
     @Test(dataProvider = "datalogin", dataProviderClass = DataProviderUser.class)
     public void loginSuccess(String email, String password) {
-        logger.info("Test LoginTests start with name ----->email: " +email+ "password" +password);
+        logger.info("Test LoginTests start with name ----->email   :"+ email+" & password  :" +password);
         // open login form
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(email, password);
@@ -64,7 +64,7 @@ public class LoginTests extends TestBase {
 
 
     }
-    @Test
+    @Test(enabled = false)
     public void NegativeWrongEmailFormat() {
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(new User().withEmail("evnikelgmail.com").withPassword("Elena1234$@"));
