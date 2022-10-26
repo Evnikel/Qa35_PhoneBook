@@ -64,7 +64,7 @@ public class LoginTests extends TestBase {
 
 
     }
-    @Test(enabled = false)
+    @Test
     public void NegativeWrongEmailFormat() {
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(new User().withEmail("evnikelgmail.com").withPassword("Elena1234$@"));

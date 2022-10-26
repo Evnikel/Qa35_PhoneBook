@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import java.util.Random;
 
 public class AddNewContactTests extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(enabled = false)
     public void preCondition(){
         if (!app.getHelperUser().isLogged()) {
             app.getHelperUser().login(new User().withEmail("evnikel@gmail.com").withPassword("Elena1234$@"));
@@ -16,7 +16,7 @@ public class AddNewContactTests extends TestBase {
     }
 
 
-    @Test
+    @Test(enabled = false)
     public void AddContact(){
         Random random = new Random();
         int i = random.nextInt(1000)+1000;
@@ -36,7 +36,7 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.helperContact().inContactAddedByPhone(contact.getPhone()));
     }
-    @Test
+    @Test(enabled = false)
     public void AddContact2(){
         Random random = new Random();
         int i = random.nextInt(1000)+1000;
@@ -56,7 +56,7 @@ public class AddNewContactTests extends TestBase {
 
     }
 
-    @Test(dataProvider = "contactValidData",dataProviderClass = DataProviderContact.class)
+    @Test(dataProvider = "contactValidData",dataProviderClass = DataProviderContact.class,enabled = false)
     public void AddContactDP(Contact contact){
         logger.info("The test used contact : " +contact.toString());
         app.helperContact().openContactForm();
@@ -66,7 +66,7 @@ public class AddNewContactTests extends TestBase {
         Assert.assertTrue(app.helperContact().isContactAddedByName(contact.getName()));
         Assert.assertTrue(app.helperContact().inContactAddedByPhone(contact.getPhone()));
     }
-    @Test
+    @Test(enabled = false)
     public void AddNewContactWrongName(){
 
         Contact contact = Contact.builder()
